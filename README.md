@@ -2,8 +2,8 @@
 MATLAB code which implements the mpLBP for triangulations
 
 # File list:
-- docs
-- -citeme.bib
+- (folder) docs
+  - citeme.bib
 - mpLBP.m
 - mpLBPp.m
 - LICENCE.md
