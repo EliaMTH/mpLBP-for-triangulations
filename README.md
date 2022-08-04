@@ -21,10 +21,14 @@ Copyright (c) Moscoso~Thompson Elia, 2020
 
 # FAQ:
 
-Q: I'm using your code on mymesh.off, and I get an error. Why? A: Usually, this is due to the mesh geometry. Check for duplicated points, intersecting triangles and other triangulation irregularities.
+Q: I'm using your code on mymesh.off, and I get an error. Why? 
+A: Usually, this is due to the mesh geometry. Check for duplicated points, intersecting triangles and other triangulation irregularities.
 
-Q: Which radius should I use? multP? n_rad? A: A quick read of the paper mentioned above can help you in this. About the radius, try to set it such that a sphere of that radius contains the feature that is repeated in the pattern. This is not a general rule, but practically speaking it is the most efficient one. About the other parameter, the most efficient settings we found across multiple datasets are P=4, nrad=7.
+Q: Which radius should I use? multP? n_rad? 
+A: A quick read of the paper mentioned above can help you in this. About the radius, try to set it such that a sphere of that radius contains the feature that is repeated in the pattern. This is not a general rule, but practically speaking it is the most efficient one. About the other parameter, the most efficient settings we found across multiple datasets are P=4, nrad=7.
 
-Q: I'm looking at your code, the structure at line xx is odd/doesn't make sense. Are you hiding something? A: This is because the code I'm giving you is a simplified/cut version of the advanced code I'm currently working on. Right now, I have no time for developing a new and simpler version from scratches. Also, I'm "rushing" this release and I'm currently out of time to do something smoother.
+Q: I'm looking at your code, the structure at line xx is odd/doesn't make sense. Are you hiding something? 
+A: This is because the code I'm giving you is a simplified/cut version of the advanced code I'm currently working on. Right now, I have no time for developing a new and simpler version from scratches. Also, I'm "rushing" this release and I'm currently out of time to do something smoother.
 
-Q: I'm using your code on this dataset you have used on your paper but my results are different! A: Of course, other factors must be considered, like how the descriptor is computed, which implementation of the distance measure between descriptors is used, and so on. If you need help with this, contact me. I'll answer when I can.
+Q: I'm using your code on this dataset you have used on your paper but my results are different! 
+A: Of course, other factors must be considered, like how the descriptor is computed, which implementation of the distance measure between descriptors is used, and so on. If you need help with this, contact me. I'll answer when I can.
