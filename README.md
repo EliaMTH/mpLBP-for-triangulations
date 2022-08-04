@@ -16,7 +16,8 @@ This is an implementation of the mpLBP as presented in the paper "mpLBP: A point
 This version works only on triangulations. The only function you need to run the code is mpLBPp.m. No additional toolboxes are required. The code is not fully optimized. I'm working on a better-structured version of the code, eventually, I will update this archive with that version. This code was tested on Matlab 2021b but it should work in previous versions as well. You can also try to use it in Octave but I never tested it. If you have the Parallel Computing Toolbox, you can use the mpLBPp.m function, reducing the running time (otherwise, the two functions are identical).
 
 Both functions are fully commented on. If you have any problems and/or questions, please contact me at elia.moscoso@ge.imati.cnr.it. 
-_Copyright (c) Moscoso~Thompson Elia, 2020
+
+Copyright (c) Moscoso~Thompson Elia, 2020
 
 # FAQ:
 
