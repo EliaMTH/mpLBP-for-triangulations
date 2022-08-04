@@ -3,7 +3,7 @@ MATLAB code which implements the mpLBP for triangulations
 
 # File list:
 - docs
---citeme.bib
+- -citeme.bib
 - mpLBP.m
 - mpLBPp.m
 - LICENCE.md
@@ -17,7 +17,7 @@ This version works only on triangulations. The only function you need to run the
 If you have the Parallel Computing Toolbox, you can use the mpLBPp.m function, reducing the running time (otherwise, the two functions are identical).
 
 Both functions are fully commented. If you have any problem and/or questions, please contact me at elia.moscoso@ge.imati.cnr.it. 
-Copyright (c) Moscoso~Thompson Elia, 2020
+_Copyright (c) Moscoso~Thompson Elia, 2020
 
 #FAQ:
 
