@@ -345,11 +345,7 @@ end
 
 borderface=f(fidx_reg==0,:);
 vbidx=unique(borderface(:));
-pp_idx=cell(1,numel(vbidx));
-parfor j=1:numel(vbidx)
-    [idx,~]=rangesearch(v,v(vbidx(j),:),R); %vc is here too
-    pp_idx{j}=idx{1};
-end
+pp_idx=rangesearch(v,v(vbidx,:),R); %vc is here too
 
 v_tooclosetoboundary=ones(1,length(v));
 v_tooclosetoboundary(unique(horzcat(pp_idx{:})))=0;
